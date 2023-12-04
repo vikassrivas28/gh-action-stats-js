@@ -26,7 +26,7 @@ jobs:
           npm install
       - name: get dir path
         id: get-path
-        uses: michmich112/get-actions-dir-path@main
+        uses: vikassrivas28/get-actions-dir-path@main
       - name: Test package
         run: |
           npm run test
